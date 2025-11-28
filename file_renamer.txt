@@ -1,0 +1,82 @@
+🔧 Core Features
+1. Auto-Rename
+
+Rename files based on patterns:
+date_filename.ext, projectXYZ_001.ext, etc.
+
+Support for:
+
+Timestamps
+
+Custom prefix/suffix
+
+Sequence numbers
+
+File metadata (photo EXIF, file size, etc.)
+
+2. Auto-Organize
+
+Move files into folders automatically:
+
+By file type (images, docs, videos)
+
+By date (year/month/day)
+
+By size
+
+By project or keyword
+
+3. Rule-Based Automation
+
+Create rules like:
+
+“All .jpg → Photos/2025”
+
+“All PDFs containing ‘invoice’ → Finance/Invoices”
+
+“All large files >50MB → Large Files folder”
+
+4. User Interface (Optional)
+
+CLI version (simple)
+
+GUI version using:
+
+Python Tkinter
+
+Electron
+
+Web app (Flask + HTML UI)
+
+🧠 Bonus Features
+
+Duplicate file detection
+
+Bulk rename preview before applying
+
+Undo action / restore logs
+
+Scheduled automation (runs daily)
+
+Drag-and-drop folder support
+
+💻 Tech Stack Suggestions
+If you want Python (Most recommended):
+
+os & shutil → file operations
+
+watchdog → auto-monitor folders
+
+tkinter → GUI
+
+exifread → image metadata
+
+re → pattern matching
+
+If you want it as a website tool:
+
+Backend: Node.js / Python Flask
+
+Frontend: HTML + JS
+
+File upload + rename preview
